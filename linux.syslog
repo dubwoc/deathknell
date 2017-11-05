@@ -1,0 +1,4 @@
+Type of death, system type, where did you find it, text, pattern?
+OOM, linux, /var/log/messages, Nov  2 20:22:30 oyster dockerd[384]: time="2017-11-02T19:10:09.038174506-07:00" level=error msg="containerd: notify OOM events" error="open /proc/12941/cgroup: no such file or directory",
+OOM, linux, /var/log/messages, Nov  2 22:36:37 oyster kernel: [1036011.133805] systemd-logind invoked oom-killer: gfp_mask=0x24201ca(GFP_HIGHUSER_MOVABLE|__GFP_COLD), nodemask=0, order=0, oom_score_adj=0, '.*?\sinvoked oom-killer'
+
